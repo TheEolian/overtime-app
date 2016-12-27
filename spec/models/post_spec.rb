@@ -13,7 +13,7 @@ RSpec.describe Post, :type => :model do
       it 'cannot be created without date and ratioanle' do
         @post.date = nil
         @post.rationale = nil
-        expect(@post).to be_valid
+        expect(@post).to_not be_valid
       end
   end
 end
