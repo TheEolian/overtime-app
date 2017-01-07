@@ -3,16 +3,22 @@
 ## Key requirements: company needs documentation that salaried employees did or did not get overtime each week
 
 ## Models
-- Post --> date:date rational:text
-- User -> Devise
-- AdminUser -> STI
+-  x Post --> date:date rational:text
+-  x User -> Devise
+-  x AdminUser -> STI
 
 ## Features:
 - Approval Workflow
 - SMS Sending -> link to approval or overtime input
-- Administrative admin dashboard
+- x Administrative admin dashboard
+- x Block non admin and guest users
 - Email summary to managers for approval
 - Needs to be documented if employees did not log overtime
 
 ## UI:
-Bootstrap -> formatting
+- x Bootstrap -> formatting
+- Icons from Font Awesome
+- x Update the styles for forms
+
+##Refactor TODOS:
+- Refactor user association integration test in post_spec
