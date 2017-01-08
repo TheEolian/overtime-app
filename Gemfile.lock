@@ -132,6 +132,8 @@ GEM
     orm_adapter (0.5.0)
     pg (0.19.0)
     public_suffix (2.0.4)
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (1.6.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -237,6 +239,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.15)
+  pundit (~> 1.1)
   rails (= 4.2.5)
   rake (< 11.0)
   rspec-rails (~> 3.0.1)
