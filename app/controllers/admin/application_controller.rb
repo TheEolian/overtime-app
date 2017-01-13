@@ -1,4 +1,5 @@
 # All Administrate controllers inherit from this `Admin::ApplicationController`,
+# All Administrate controllers inherit from this `Admin::ApplicationController`,
 # making it the ideal place to put authentication logic or other
 # before_filters.
 #
@@ -8,7 +9,7 @@ module Admin
   def self.admin_types
     ['AdminUser']
   end
-  
+
   class ApplicationController < Administrate::ApplicationController
     before_action :authenticate_user!
     before_filter :authenticate_admin
@@ -19,5 +20,11 @@ module Admin
         redirect_to(root_path)
       end
     end
+
+    # Override this value to specify the number of elements to display at a time
+    # on index pages. Defaults to 20.
+    # def records_per_page
+    #   params[:per_page] || 20
+    # end
   end
 end
