@@ -8,11 +8,6 @@ namespace :notification do
     # User.all.each do |user|
     #   SmsTool.send_sms()
     # end
-    # number: "555-555-5555"
-    # number: "5555555555"
-    # no spaces or dashs
-    # exactly 10 characters
-    # all characters have to be numbers
   end
 
 end
