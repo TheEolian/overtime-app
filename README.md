@@ -15,5 +15,6 @@
 - x Block non admin and guest users
 - Email summary to managers for approval
 - x Needs to be documented if employees did not log overtime
+- creat audit log for each text message
 
 ## TODOS:
