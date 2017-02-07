@@ -17,10 +17,10 @@
 - x Needs to be documented if employees did not log overtime
 - Create audit log for each text message
 - x Need to update end_date when confirmed
-- need to update audit log status when an overtime item has beenr ejected
-- Update buttons on employee homepage for mobile
-- Update buttons to include time span
-- Update buttons ort order on employee homepage
+- x Need to update audit log status when an overtime item has beenr ejected
+- x Update buttons on employee homepage for mobile
+- x Update buttons to include time span
+- x Update buttons sort order on employee homepage
 - Remove unnecessary navbar buttons for managers
 - Fix admin dashboard bug
 - Check on data issue and check hours are correct
