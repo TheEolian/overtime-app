@@ -15,13 +15,14 @@
 - x Block non admin and guest users
 - x Email summary to managers for approval
 - x Needs to be documented if employees did not log overtime
-- creat audit log for each text message
-- Need to update end_date when confirmed
+- Create audit log for each text message
+- x Need to update end_date when confirmed
 - need to update audit log status when an overtime item has beenr ejected
 - Update buttons on employee homepage for mobile
 - Update buttons to include time span
 - Update buttons ort order on employee homepage
 - Remove unnecessary navbar buttons for managers
 - Fix admin dashboard bug
+- Check on data issue and check hours are correct
 
 ## TODOS:
