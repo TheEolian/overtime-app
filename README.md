@@ -22,7 +22,7 @@
 - x Update buttons to include time span
 - x Update buttons sort order on employee homepage
 - x Remove unnecessary navbar buttons for managers
-- Fix admin dashboard bug
-- Check on data issue and verify check hours are being tracked
+- x Fix admin dashboard bug
+- Implemenet new relic for keeping site alive
 
 ## TODOS:
