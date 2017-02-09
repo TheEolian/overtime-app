@@ -21,8 +21,8 @@
 - x Update buttons on employee homepage for mobile
 - x Update buttons to include time span
 - x Update buttons sort order on employee homepage
-- Remove unnecessary navbar buttons for managers
+- x Remove unnecessary navbar buttons for managers
 - Fix admin dashboard bug
-- Check on data issue and check hours are correct
+- Check on data issue and verify check hours are being tracked
 
 ## TODOS:
