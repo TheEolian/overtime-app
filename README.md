@@ -23,6 +23,7 @@
 - x Update buttons sort order on employee homepage
 - x Remove unnecessary navbar buttons for managers
 - x Fix admin dashboard bug
-- Implemenet new relic for keeping site alive
+- x Implemenet new relic for keeping site alive
+- Download new relic yml file and add to config folder
 
 ## TODOS:
